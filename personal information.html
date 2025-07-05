@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Infromation Form</title>
+</head>
+<body>
+    <form action="">
+        <h1>Personal Information Form</h1>
+        <p>Requird fields are followed by *</p>
+        <h2>PERSONAL INFORMATION</h2>
+        <p>FULL NAME: *<input type="text" name="full name" id="full name" required>
+        DATE: *<input type="date" name="date" id="date" required>
+        </p>
+        <p>ADDRESS: <textarea name="address" id="address" cols="60" rows="5"></textarea></p>
+        <p>EMAIL: * <input type="email" name="email" id="email" required>
+        PHONE: * <input type="number" name="phone" id="phone"></p required>
+        <p>SOCIAL SECURITY NUMBER(SSN): <input type="number" name="ssn" id="ssn">
+        <input type="number" name="ssn" id="ssn">
+        <input type="number" name="ssn" id="ssn">
+    </p>
+    <p>DATE AVAILABLE: <input type="date" name="date_aval" id="date_aval">
+    DESIRED PAY: * $<input type="number" name="desired_pay" id="desired_pay" required>
+    HOUR <input type="radio" name="desired_pay" id="desired_pay"> SALARY <input type="radio" name="desired_pay" id="desired_pay">
+    </p>
+    <p>POSITION APPLIED FOR: * <input type="text" name="position" id="position" required></p>
+    <fieldset>
+        <legend>EMPLOYMENT DESIRED *</legend>
+        <p>
+        FULL-TIME <input type="radio" name="employment desird" id="employment desird" required>
+        PART-TIME <input type="radio" name="employment desird" id="employment desird" required>
+        SEASONAL <input type="radio" name="employment desird" id="employment desird" required>
+    </P>
+    </fieldset>
+    <h2>EMPLOYMENT ELIGIBILITY</h2>
+    <fieldset>
+        <legend>ARE YOU ELIGIBLE TO WORK IN THE U.S?</legend>
+        <p>
+        YES <input type="radio" name="U.S" id="U.S">
+        NO <input type="radio" name="U.S" id="U.S">
+    </P>
+    </fieldset>
+    <fieldset>
+        <legend>HAVE YOU EVER WORKED FOR THIS EMPLOYER?</legend>
+        <p>
+        YES <input type="radio" name="EVR_WORK" id="EVR_WORK">
+        NO <input type="radio" name="EVR_WORK" id="EVR_WORK">
+    </P>
+    <P>IF YES,WRITE THE START AND END DATES: <input type="date" name="start" id="start"> <input type="date" name="end" id="end"></P>
+    </fieldset>
+    <fieldset>
+        <legend>HAVE YOU EVER BEEN CONVICTED OF A FELCONY?</legend>
+        <p>
+        YES <input type="radio" name="felcony" id="felcony">
+        NO <input type="radio" name="felcony" id="felcony">
+    </P>
+    <P>IF YES,PLEASE EXPLAIN: <textarea name="explain" id="explain" cols="20" rows="2"></textarea></P>
+    </fieldset>
+    <h2>EDUCATION</h2>
+    <p>HIGH SCHOOL: <input type="text" name="high school" id="high school">
+    CITY/STATE: <input type="text" name="city/state_s" id="city/state_s">
+    </p>
+    <p>FROM: <input type="sdate" name="sfrom" id="sfrom">
+    TO: <input type="date" name="sto" id="sto">
+    </p>
+    <p>
+        GRADUATE? YES <input type="radio" name="graduate" id="graduate">
+        NO <input type="radio" name="graduate" id="graduate">
+        DIPLOMA: <input type="text" name="diploma" id="diploma">
+    </p>
+    <p>COLLEGE: <input type="text" name="college" id="college">
+    CITY/STATE: <input type="text" name="city/state_c" id="city/state_c">
+    </p>
+    <p>FROM: <input type="date" name="cfrom" id="cfrom">
+    TO: <input type="date" name="cto" id="cto">
+    </p>
+    <p>
+        GRADUATE? YES <input type="radio" name="graduate_col" id="graduate_col">
+        NO <input type="radio" name="graduate_col" id="graduate_col">
+        DEGREE <input type="text" name="degree" id="degree">
+    </p>
+    <p>OTHERS: <textarea name="others" id="others"  cols="50" role="4"></textarea></p>
+     <input type="submit" value="SUBMIT">
+    </form>
+</body>
+</html>
